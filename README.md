@@ -1,5 +1,5 @@
 ## Getting Started
-
+![344237495_1656362411458576_2477241596957686336_n](https://user-images.githubusercontent.com/79729183/235365591-61ee51cc-46a8-4c59-a4e1-97e0ab2e464b.jpg)
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
 ## Folder Structure
