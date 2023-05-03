@@ -119,9 +119,9 @@ public class Factory {
     public void FiredEmployeeID(int ID) {
         for (int i = 0; i < EmployeeList.size(); i++) {
             if (ID == EmployeeList.get(i).getID()) {
-                continue;
+                EmployeeList.remove(i);
+                break;
             }
-
         }
 
     }
