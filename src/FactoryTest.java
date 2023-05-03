@@ -94,4 +94,19 @@ public void testAddTrainee() {
         assertTrue(factory.CheckPartTimeEmployeeID(5));
         assertFalse(factory.CheckPartTimeEmployeeID(6));
     }
+
+    @Test
+    public void testFiredEmployeeID_Found() {
+        factory.addEmployee("John", 123, 1000.0);
+        assertTrue(factory.CheckEmployeeID(123));
+        factory.FiredEmployeeID(123);
+        assertFalse(factory.CheckEmployeeID(123));
+    }
+    
+    @Test
+    public void testFiredEmployeeID_NotFound() {
+        assertFalse(factory.CheckEmployeeID(456));
+        factory.FiredEmployeeID(456);
+        assertFalse(factory.CheckEmployeeID(456));
+    }
 }
